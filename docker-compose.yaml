@@ -1,0 +1,58 @@
+version: '3'
+services:
+
+  frontend:
+    build:
+      context: ./newWelcome
+      dockerfile: Dockerfile.dev
+    container_name: frontend
+    stdin_open: true
+    volumes:
+      - ./app:/newWelcome
+    networks:
+      - w2e_network
+    restart: on-failure
+
+  api:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: api
+    volumes:
+      - ./app:/server
+    networks:
+      - w2e_network
+    restart: on-failure
+
+  scrapper:
+    build:
+      context: ./numbeoScraper
+      dockerfile: Dockerfile
+    container_name: numbeoScraper 
+    
+  scrapergooglemaps:
+    build:
+      context: ./googleMapsScraper
+      dockerfile: Dockerfile
+    container_name: gmapsScraper
+    init: true
+    privileged: true
+  
+  proxy:
+    image: nginx:latest
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - api
+      - frontend
+    container_name: proxy
+    networks:
+      - w2e_network
+    restart: on-failure
+
+networks:
+  w2e_network:
+    external: false
+    name: w2e_network
