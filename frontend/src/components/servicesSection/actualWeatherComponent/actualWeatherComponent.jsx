@@ -6,7 +6,7 @@ import { LoadingWrapper } from '../../loadingWrapper/loadingWrapper'
 import { RotatingSquare } from 'react-loader-spinner'
 
 const getWeather = async (city) => {
-  const api_call = await fetch(`${process.env.REACT_APP_API_URL}/weather/${city}`).then((response) => response.json())
+  const api_call = await fetch(`${process.env.REACT_APP_API_URL}/weather/barcelona`).then((response) => response.json())
   return api_call
 }
 

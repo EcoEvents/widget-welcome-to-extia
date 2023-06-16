@@ -5,6 +5,7 @@ import { useCookies } from 'react-cookie';
 // import { cityArrival } from "../../data/cityName";
 import { Scroller } from "../../components/Header/scroller/scroller";
 import { t } from "i18next";
+import humanThink from "../../images/humanThink.png"
 
 
 import "./header.css";
@@ -149,7 +150,7 @@ export function Header(props) {
     <>
       <div className="elemStyle" style={elemStyle} name="Header" format={props.format}>
         <div style={props.format === "s" ? props.orientation === "portrait" ? circleStyleS : circleStyleLandscape : props.format === "m" ? circleStyleM : circleStyle}>
-          {props.format === 'l' && <img className="human" alt="human" />}
+          {props.format === 'l' && <img className="human" alt="human" src={humanThink} />}
         </div>
         <div>
           <div style={titleAndCityButtonContainer}>
