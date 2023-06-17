@@ -1,0 +1,1148 @@
+{
+    "pagination": {
+      "object_count": 14,
+      "continuation": null,
+      "page_count": 1,
+      "page_size": 14,
+      "has_more_items": false,
+      "page_number": 1
+    },
+    "events": [
+      
+      {
+        "image": {
+          "edge_color_set": true,
+          "edge_color": "#c2b4ad",
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F530869599%2F611910567783%2F1%2Foriginal.20230607-052750?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C573%2C1536%2C768&s=fbfcefff4f49d49972cbe28d79c97ecc",
+          "original": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F530869599%2F611910567783%2F1%2Foriginal.20230607-052750?auto=format%2Ccompress&q=75&sharp=10&s=566d061946e61a3f8d323acfa891cd86",
+            "width": 1536,
+            "height": 2048
+          },
+          "crop_mask": {
+            "width": 1536,
+            "height": 768,
+            "top_left": {
+              "y": 573,
+              "x": 0
+            }
+          },
+          "aspect_ratio": "2",
+          "id": "530869599"
+        },
+        "saves": {
+          "saved_by_you": false
+        },
+        "event_sales_status": {
+          "default_message": "Ventas terminadas",
+          "sales_status": "sales_ended",
+          "currency": "EUR",
+          "message_code": "tickets_with_sales_ended",
+          "message": "Ventas terminadas",
+          "message_type": "default"
+        },
+        "timezone": "Europe/Madrid",
+        "id": "652541448037",
+        "privacy_setting": "unlocked",
+        "tickets_by": "Eventbrite",
+        "primary_organizer_id": "48700210753",
+        "tickets_url": "https://www.eventbrite.com/checkout-external?eid=652541448037",
+        "hide_end_date": false,
+        "start_date": "2023-06-19",
+        "end_time": "18:00",
+        "status": "live",
+        "_type": "destination_event",
+        "public_collections": {
+          "creator_collections": {
+            "object_count": 0,
+            "collections": []
+          }
+        },
+        "ticket_availability": {
+          "is_sold_out": true,
+          "is_free": true,
+          "minimum_ticket_price": {
+            "currency": "EUR",
+            "major_value": "0.00",
+            "value": 0,
+            "display": "0.00 EUR"
+          },
+          "has_available_tickets": false,
+          "maximum_ticket_price": {
+            "currency": "EUR",
+            "major_value": "0.00",
+            "value": 0,
+            "display": "0.00 EUR"
+          }
+        },
+        "end_date": "2023-06-19",
+        "tags": [
+          {
+            "prefix": "EventbriteSubCategory",
+            "tag": "EventbriteSubCategory/7999",
+            "display_name": "Other"
+          },
+          {
+            "prefix": "EventbriteCategory",
+            "tag": "EventbriteCategory/107",
+            "display_name": "Health & Wellness",
+            "localized": {
+              "display_name": "Health & Wellness"
+            }
+          },
+          {
+            "prefix": "EventbriteFormat",
+            "tag": "EventbriteFormat/19",
+            "display_name": "Appearance or Signing"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/event",
+            "display_name": "event",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/academy",
+            "display_name": "academy",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/educacion",
+            "display_name": "educacion",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/barcelona",
+            "display_name": "barcelona",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/salud",
+            "display_name": "salud",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/zerowaste",
+            "display_name": "zerowaste",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/lanzamiento",
+            "display_name": "lanzamiento",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/sostenibilidad",
+            "display_name": "sostenibilidad",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/academiaonline",
+            "display_name": "academiaonline",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/ceroresiduo",
+            "display_name": "ceroresiduo",
+            "prefix": "OrganizerTag"
+          }
+        ],
+        "eventbrite_event_id": "652541448037",
+        "start_time": "17:00",
+        "primary_venue": {
+          "_type": "destination_venue",
+          "name": "La Fàbrica del Sol",
+          "venue_profile_id": null,
+          "address": {
+            "city": "Barcelona",
+            "country": "ES",
+            "region": "CT",
+            "longitude": "2.1918269",
+            "localized_address_display": "1 Passeig de Salvat Papasseit, 08003 Barcelona",
+            "postal_code": "08003",
+            "address_1": "1 Passeig de Salvat Papasseit",
+            "address_2": "",
+            "latitude": "41.3821736",
+            "localized_multi_line_address_display": [
+              "1 Passeig de Salvat Papasseit",
+              "08003 Barcelona"
+            ],
+            "localized_area_display": "Barcelona"
+          },
+          "venue_profile_url": "",
+          "id": "158395869"
+        },
+        "primary_organizer": {
+          "_type": "destination_profile",
+          "num_upcoming_events": null,
+          "name": "90:10 Project - Sara Cordeiro",
+          "profile_type": "organizer",
+          "num_followers": 7,
+          "url": "https://www.eventbrite.es/o/9010-project-sara-cordeiro-48700210753",
+          "twitter": null,
+          "summary": null,
+          "num_saves": null,
+          "image_id": null,
+          "followed_by_you": false,
+          "facebook": null,
+          "num_collections": null,
+          "id": "48700210753",
+          "website_url": null,
+          "num_following": null
+        },
+        "series_id": null,
+        "image_id": "530869599",
+        "is_protected_event": false,
+        "is_cancelled": null,
+        "primary_venue_id": "158395869",
+        "checkout_flow": "widget",
+        "name": "Lanzamiento 90:10 Project Academy",
+        "language": "es-es",
+        "url": "https://www.eventbrite.es/e/entradas-lanzamiento-9010-project-academy-652541448037",
+        "hide_start_date": false,
+        "summary": "Lanzamiento de 90:10 Project Academy, la academia online comprometida con la enseñanza de la Acción Climática. www.9010project.com/academy",
+        "is_online_event": false,
+        "eid": "ehctkhfx",
+        "published": "2023-06-07T05:51:26Z"
+      },
+      {
+        "image": {
+          "edge_color_set": true,
+          "edge_color": "#7e7a72",
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F389435079%2F1000984825473%2F1%2Foriginal.20221108-170039?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=28%2C0%2C1960%2C980&s=b107766d32cab9294709677e5be956cd",
+          "original": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F389435079%2F1000984825473%2F1%2Foriginal.20221108-170039?auto=format%2Ccompress&q=75&sharp=10&s=b4a7548a9712e64b075d63c22f2d824f",
+            "width": 2016,
+            "height": 980
+          },
+          "crop_mask": {
+            "width": 1960,
+            "height": 980,
+            "top_left": {
+              "y": 0,
+              "x": 28
+            }
+          },
+          "aspect_ratio": "2",
+          "id": "389435079"
+        },
+        "saves": {
+          "saved_by_you": false
+        },
+        "event_sales_status": {
+          "default_message": null,
+          "sales_status": "on_sale",
+          "currency": "EUR",
+          "message_code": null,
+          "message": null,
+          "message_type": null
+        },
+        "timezone": "Europe/Madrid",
+        "id": "464342449767",
+        "privacy_setting": "unlocked",
+        "tickets_by": "Eventbrite",
+        "primary_organizer_id": "48394374783",
+        "tickets_url": "https://www.eventbrite.com/checkout-external?eid=464342449767",
+        "hide_end_date": false,
+        "start_date": "2023-06-18",
+        "end_time": "10:00",
+        "status": "live",
+        "_type": "destination_event",
+        "public_collections": {
+          "creator_collections": {
+            "object_count": 0,
+            "collections": []
+          }
+        },
+        "ticket_availability": {
+          "is_sold_out": false,
+          "is_free": false,
+          "minimum_ticket_price": {
+            "currency": "EUR",
+            "major_value": "0.00",
+            "value": 0,
+            "display": "0.00 EUR"
+          },
+          "has_available_tickets": true,
+          "maximum_ticket_price": {
+            "currency": "EUR",
+            "major_value": "5.77",
+            "value": 577,
+            "display": "5.77 EUR"
+          }
+        },
+        "end_date": "2023-06-18",
+        "tags": [
+          {
+            "prefix": "EventbriteCategory",
+            "tag": "EventbriteCategory/199",
+            "display_name": "Other",
+            "localized": {
+              "display_name": "Other"
+            }
+          },
+          {
+            "prefix": "EventbriteFormat",
+            "tag": "EventbriteFormat/100",
+            "display_name": "Other"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/volunteer",
+            "display_name": "volunteer",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/sostenibilità",
+            "display_name": "sostenibilità",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/sostenibilidad",
+            "display_name": "sostenibilidad",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/voluntariado",
+            "display_name": "voluntariado",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/medioambiente",
+            "display_name": "medioambiente",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/buceo",
+            "display_name": "buceo",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/sostenibilitat",
+            "display_name": "sostenibilitat",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/sostenibilità_sociale",
+            "display_name": "sostenibilità_sociale",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/voluntariadoetico",
+            "display_name": "voluntariadoetico",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/limpiezaplaya",
+            "display_name": "limpiezaplaya",
+            "prefix": "OrganizerTag"
+          }
+        ],
+        "eventbrite_event_id": "464342449767",
+        "start_time": "09:00",
+        "primary_venue": {
+          "_type": "destination_venue",
+          "name": "Curso Buceo Padi - Underwater Barcelona",
+          "venue_profile_id": null,
+          "address": {
+            "city": "Barcelona",
+            "country": "ES",
+            "region": "CT",
+            "longitude": "2.1887194",
+            "localized_address_display": "paseo mare nostrum 14, 08039 Barcelona",
+            "postal_code": "08039",
+            "address_1": "paseo mare nostrum 14",
+            "address_2": "",
+            "latitude": "41.370421",
+            "localized_multi_line_address_display": [
+              "paseo mare nostrum 14",
+              "08039 Barcelona"
+            ],
+            "localized_area_display": "Barcelona"
+          },
+          "venue_profile_url": "",
+          "id": "123578999"
+        },
+        "primary_organizer": {
+          "_type": "destination_profile",
+          "num_upcoming_events": null,
+          "name": "Underwater barcelona - Sin pasaje de vuelta",
+          "profile_type": "organizer",
+          "num_followers": 12,
+          "url": "https://www.eventbrite.com/o/underwater-barcelona-sin-pasaje-de-vuelta-48394374783",
+          "twitter": null,
+          "summary": null,
+          "num_saves": null,
+          "image_id": null,
+          "followed_by_you": false,
+          "facebook": null,
+          "num_collections": null,
+          "id": "48394374783",
+          "website_url": null,
+          "num_following": null
+        },
+        "series_id": "464340985387",
+        "image_id": "389435079",
+        "is_protected_event": false,
+        "is_cancelled": null,
+        "primary_venue_id": "123578999",
+        "checkout_flow": "widget",
+        "name": "Limpieza de playa y fondo marino en barcelona",
+        "language": "es-es",
+        "url": "https://www.eventbrite.com/e/entradas-limpieza-de-playa-y-fondo-marino-en-barcelona-464342449767",
+        "hide_start_date": false,
+        "summary": "Ofrecemos gratuitamente guantes y bolsas para el evento.\nMas info www.underwaterbarcelona.com",
+        "is_online_event": false,
+        "eid": "efrftfdm",
+        "published": "2022-11-08T17:01:53Z"
+      },
+      {
+        "image": {
+          "edge_color_set": true,
+          "edge_color": "#5e8493",
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F531956229%2F1596254165413%2F1%2Foriginal.20230608-132132?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1600%2C800&s=e73ca68d7af808d4b5daf5627c407bf5",
+          "original": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F531956229%2F1596254165413%2F1%2Foriginal.20230608-132132?auto=format%2Ccompress&q=75&sharp=10&s=bf86e5285fbbb8f0a24e003601d65c0e",
+            "width": 1600,
+            "height": 800
+          },
+          "crop_mask": {
+            "width": 1600,
+            "height": 800,
+            "top_left": {
+              "y": 0,
+              "x": 0
+            }
+          },
+          "aspect_ratio": "2",
+          "id": "531956229"
+        },
+        "saves": {
+          "saved_by_you": false
+        },
+        "event_sales_status": {
+          "start_sales_date": {
+            "timezone": "Europe/Madrid",
+            "local": "2023-06-08T15:30:00",
+            "utc": "2023-06-08T13:30:00Z"
+          },
+          "default_message": null,
+          "sales_status": "on_sale",
+          "currency": "EUR",
+          "message_code": null,
+          "message": null,
+          "message_type": null
+        },
+        "timezone": "Europe/Madrid",
+        "id": "653926651217",
+        "privacy_setting": "unlocked",
+        "tickets_by": "Eventbrite",
+        "primary_organizer_id": "67026644033",
+        "tickets_url": "https://www.eventbrite.com/checkout-external?eid=653926651217",
+        "hide_end_date": false,
+        "start_date": "2023-06-17",
+        "end_time": "12:00",
+        "status": "live",
+        "_type": "destination_event",
+        "public_collections": {
+          "creator_collections": {
+            "object_count": 0,
+            "collections": []
+          }
+        },
+        "ticket_availability": {
+          "is_sold_out": false,
+          "is_free": true,
+          "minimum_ticket_price": {
+            "currency": "EUR",
+            "major_value": "0.00",
+            "value": 0,
+            "display": "0.00 EUR"
+          },
+          "has_available_tickets": true,
+          "maximum_ticket_price": {
+            "currency": "EUR",
+            "major_value": "0.00",
+            "value": 0,
+            "display": "0.00 EUR"
+          }
+        },
+        "end_date": "2023-06-17",
+        "tags": [
+          {
+            "prefix": "EventbriteSubCategory",
+            "tag": "EventbriteSubCategory/9999",
+            "display_name": "Other"
+          },
+          {
+            "prefix": "EventbriteCategory",
+            "tag": "EventbriteCategory/109",
+            "display_name": "Travel & Outdoor",
+            "localized": {
+              "display_name": "Travel & Outdoor"
+            }
+          },
+          {
+            "prefix": "EventbriteFormat",
+            "tag": "EventbriteFormat/100",
+            "display_name": "Other"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/sostenibilidad",
+            "display_name": "sostenibilidad",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/eventosbarcelona",
+            "display_name": "eventosbarcelona",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/castelldefels",
+            "display_name": "castelldefels",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/actividades_en_barcelona",
+            "display_name": "actividades_en_barcelona",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/actividades_al_aire_libre",
+            "display_name": "actividades_al_aire_libre",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/eventosgratis",
+            "display_name": "eventosgratis",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/actividadesdeverano",
+            "display_name": "actividadesdeverano",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/limpiezaplaya",
+            "display_name": "limpiezaplaya",
+            "prefix": "OrganizerTag"
+          }
+        ],
+        "eventbrite_event_id": "653926651217",
+        "start_time": "09:30",
+        "primary_venue": {
+          "_type": "destination_venue",
+          "name": "Shaka Surf Castelldefels",
+          "venue_profile_id": null,
+          "address": {
+            "city": "Sitges",
+            "country": "ES",
+            "region": "CT",
+            "longitude": "1.943893799999999",
+            "localized_address_display": "Carrer de la Cova Fumada, 08860 Sitges",
+            "postal_code": "08860",
+            "address_1": "Carrer de la Cova Fumada",
+            "address_2": "",
+            "latitude": "41.26375679999999",
+            "localized_multi_line_address_display": [
+              "Carrer de la Cova Fumada",
+              "08860 Sitges"
+            ],
+            "localized_area_display": "Sitges"
+          },
+          "venue_profile_url": "",
+          "id": "158656419"
+        },
+        "primary_organizer": {
+          "_type": "destination_profile",
+          "num_upcoming_events": null,
+          "name": "ànecblau",
+          "profile_type": "organizer",
+          "num_followers": null,
+          "url": "https://www.eventbrite.es/o/anecblau-67026644033",
+          "twitter": null,
+          "summary": null,
+          "num_saves": null,
+          "image_id": null,
+          "followed_by_you": false,
+          "facebook": null,
+          "num_collections": null,
+          "id": "67026644033",
+          "website_url": "https://www.anecblau.com/",
+          "num_following": null
+        },
+        "series_id": null,
+        "image_id": "531956229",
+        "is_protected_event": false,
+        "is_cancelled": null,
+        "primary_venue_id": "158656419",
+        "checkout_flow": "widget",
+        "name": "Jornada de limpieza de playa en Castelldefels",
+        "language": "es-es",
+        "url": "https://www.eventbrite.es/e/entradas-jornada-de-limpieza-de-playa-en-castelldefels-653926651217",
+        "hide_start_date": false,
+        "summary": "¡Esto es cosa de todos! Únete a la limpieza de playa de Castelldefels. ¡Hagamos de nuestro planeta un sitio mejor y más sostenible!",
+        "is_online_event": false,
+        "eid": "ehcyzzyh",
+        "published": "2023-06-08T13:28:59Z"
+      },
+      {
+        "image": {
+          "edge_color_set": true,
+          "edge_color": "#ccdbc8",
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F502207079%2F344119432387%2F1%2Foriginal.20230427-104546?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C97%2C1754%2C877&s=07690998102f66171af844d75d6f913a",
+          "original": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F502207079%2F344119432387%2F1%2Foriginal.20230427-104546?auto=format%2Ccompress&q=75&sharp=10&s=94f9b730e0c5c09da8e4fb48ca81cc47",
+            "width": 1754,
+            "height": 1240
+          },
+          "crop_mask": {
+            "width": 1754,
+            "height": 877,
+            "top_left": {
+              "y": 97,
+              "x": 0
+            }
+          },
+          "aspect_ratio": "2",
+          "id": "502207079"
+        },
+        "saves": {
+          "saved_by_you": false
+        },
+        "event_sales_status": {
+          "default_message": null,
+          "sales_status": "on_sale",
+          "currency": "EUR",
+          "message_code": null,
+          "message": null,
+          "message_type": null
+        },
+        "timezone": "Europe/Madrid",
+        "id": "656741570717",
+        "privacy_setting": "unlocked",
+        "tickets_by": "Eventbrite",
+        "primary_organizer_id": "28698371153",
+        "tickets_url": "https://www.eventbrite.com/checkout-external?eid=656741570717",
+        "hide_end_date": false,
+        "start_date": "2023-09-16",
+        "end_time": "21:30",
+        "status": "live",
+        "_type": "destination_event",
+        "public_collections": {
+          "creator_collections": {
+            "object_count": 0,
+            "collections": []
+          }
+        },
+        "ticket_availability": {
+          "is_sold_out": false,
+          "is_free": true,
+          "minimum_ticket_price": {
+            "currency": "EUR",
+            "major_value": "0.00",
+            "value": 0,
+            "display": "0.00 EUR"
+          },
+          "has_available_tickets": true,
+          "maximum_ticket_price": {
+            "currency": "EUR",
+            "major_value": "0.00",
+            "value": 0,
+            "display": "0.00 EUR"
+          }
+        },
+        "end_date": "2023-09-16",
+        "tags": [
+          {
+            "prefix": "EventbriteSubCategory",
+            "tag": "EventbriteSubCategory/6001",
+            "display_name": "Fashion"
+          },
+          {
+            "prefix": "EventbriteCategory",
+            "tag": "EventbriteCategory/106",
+            "display_name": "Fashion & Beauty",
+            "localized": {
+              "display_name": "Fashion & Beauty"
+            }
+          },
+          {
+            "prefix": "EventbriteFormat",
+            "tag": "EventbriteFormat/5",
+            "display_name": "Festival or Fair"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/lifestyle",
+            "display_name": "lifestyle",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/belleza",
+            "display_name": "belleza",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/lifestlye",
+            "display_name": "lifestlye",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/eventos",
+            "display_name": "eventos",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/circular",
+            "display_name": "circular",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/goumet",
+            "display_name": "goumet",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/modasostenible",
+            "display_name": "modasostenible",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/diseñadoresdemoda",
+            "display_name": "diseñadoresdemoda",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/feriasdemoda",
+            "display_name": "feriasdemoda",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/modelosostenible",
+            "display_name": "modelosostenible",
+            "prefix": "OrganizerTag"
+          }
+        ],
+        "eventbrite_event_id": "656741570717",
+        "start_time": "11:00",
+        "primary_venue": {
+          "_type": "destination_venue",
+          "name": "JUNO HOUSE",
+          "venue_profile_id": null,
+          "address": {
+            "city": "Barcelona",
+            "country": "ES",
+            "region": "CT",
+            "longitude": "2.1506252",
+            "localized_address_display": "Aribau 226, Barcelona, 08039 Barcelona",
+            "postal_code": "08039",
+            "address_1": "Aribau 226, Barcelona",
+            "address_2": "",
+            "latitude": "41.3951523",
+            "localized_multi_line_address_display": [
+              "Aribau 226, Barcelona",
+              "08039 Barcelona"
+            ],
+            "localized_area_display": "Barcelona"
+          },
+          "venue_profile_url": "",
+          "id": "151222199"
+        },
+        "primary_organizer": {
+          "_type": "destination_profile",
+          "num_upcoming_events": null,
+          "name": "BSFW",
+          "profile_type": "organizer",
+          "num_followers": 113,
+          "url": "https://www.eventbrite.es/o/bsfw-28698371153",
+          "twitter": null,
+          "summary": "La creatividad siempre ha sido el motor de la humanidad para afrontar los retos y superar los obstáculos. En un momento en el que el sector de moda se encuentra en el segundo sector más contaminante d...",
+          "num_saves": null,
+          "image_id": "357815829",
+          "followed_by_you": false,
+          "facebook": null,
+          "num_collections": null,
+          "id": "28698371153",
+          "website_url": "https://www.bsfw2022.com",
+          "num_following": null
+        },
+        "series_id": "623914784917",
+        "image_id": "502207079",
+        "is_protected_event": false,
+        "is_cancelled": null,
+        "primary_venue_id": "151222199",
+        "checkout_flow": "widget",
+        "name": "SUSTAINABLE FASHION WEEK 2023",
+        "language": "es-es",
+        "url": "https://www.eventbrite.es/e/entradas-barcelona-sustainable-fashion-week-2023-656741570717",
+        "hide_start_date": false,
+        "summary": "Segunda Edición de la BSFW 2023 en  la Marina Vela de Barcelona, un complejo náutico de última generación en pleno corazón de la Ciudad.",
+        "is_online_event": false,
+        "eid": "egwhkwbz",
+        "published": "2023-04-24T20:55:30Z"
+      },
+      
+      {
+        "image": {
+          "edge_color_set": true,
+          "edge_color": "#a4cecc",
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F529161999%2F12513808747%2F1%2Foriginal.20230602-100620?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=1%2C209%2C3332%2C1666&s=78b7a1bde90ce6ef27c3811de4469098",
+          "original": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F529161999%2F12513808747%2F1%2Foriginal.20230602-100620?auto=format%2Ccompress&q=75&sharp=10&s=4020fb39802329d072f92f621056c6d0",
+            "width": 3333,
+            "height": 1875
+          },
+          "crop_mask": {
+            "width": 3332,
+            "height": 1666,
+            "top_left": {
+              "y": 209,
+              "x": 1
+            }
+          },
+          "aspect_ratio": "2",
+          "id": "529161999"
+        },
+        "saves": {
+          "saved_by_you": false
+        },
+        "event_sales_status": {
+          "start_sales_date": {
+            "timezone": "Europe/Madrid",
+            "local": "2023-05-26T09:50:00",
+            "utc": "2023-05-26T07:50:00Z"
+          },
+          "default_message": null,
+          "sales_status": "on_sale",
+          "currency": "EUR",
+          "message_code": null,
+          "message": null,
+          "message_type": null
+        },
+        "timezone": "Europe/Madrid",
+        "id": "650671976397",
+        "privacy_setting": "unlocked",
+        "tickets_by": "Eventbrite",
+        "primary_organizer_id": "30479602096",
+        "tickets_url": "https://www.eventbrite.com/checkout-external?eid=650671976397",
+        "hide_end_date": true,
+        "start_date": "2023-06-18",
+        "end_time": "11:35",
+        "status": "live",
+        "_type": "destination_event",
+        "public_collections": {
+          "creator_collections": {
+            "object_count": 0,
+            "collections": []
+          }
+        },
+        "ticket_availability": {
+          "is_sold_out": false,
+          "is_free": true,
+          "minimum_ticket_price": {
+            "currency": "EUR",
+            "major_value": "0.00",
+            "value": 0,
+            "display": "0.00 EUR"
+          },
+          "has_available_tickets": true,
+          "maximum_ticket_price": {
+            "currency": "EUR",
+            "major_value": "0.00",
+            "value": 0,
+            "display": "0.00 EUR"
+          }
+        },
+        "end_date": "2023-06-18",
+        "tags": [
+          {
+            "prefix": "EventbriteCategory",
+            "tag": "EventbriteCategory/115",
+            "display_name": "Family & Education",
+            "localized": {
+              "display_name": "Family & Education"
+            }
+          },
+          {
+            "prefix": "EventbriteFormat",
+            "tag": "EventbriteFormat/9",
+            "display_name": "Class, Training, or Workshop"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/educació",
+            "display_name": "educació",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/espluga_de_francolí",
+            "display_name": "espluga_de_francolí",
+            "prefix": "OrganizerTag"
+          }
+        ],
+        "eventbrite_event_id": "650671976397",
+        "start_time": "11:05",
+        "primary_venue": {
+          "_type": "destination_venue",
+          "name": "Museu de la Vida Rural",
+          "venue_profile_id": null,
+          "address": {
+            "city": "L'Espluga de Francolí",
+            "country": "ES",
+            "region": "",
+            "longitude": "1.106187",
+            "localized_address_display": "Carretera de Montblanc, 35, 43440 L'Espluga de Francolí",
+            "postal_code": "43440",
+            "address_1": "Carretera de Montblanc, 35",
+            "address_2": "",
+            "latitude": "41.396543",
+            "localized_multi_line_address_display": [
+              "Carretera de Montblanc, 35",
+              "43440 L'Espluga de Francolí"
+            ],
+            "localized_area_display": "L'Espluga de Francolí"
+          },
+          "venue_profile_url": "",
+          "id": "157977719"
+        },
+        "primary_organizer": {
+          "_type": "destination_profile",
+          "num_upcoming_events": null,
+          "name": "Museu de la Vida Rural",
+          "profile_type": "organizer",
+          "num_followers": 406,
+          "url": "https://www.eventbrite.es/o/museu-de-la-vida-rural-30479602096",
+          "twitter": "MuseuVidaRural",
+          "summary": "El Museu de la Vida Rural  de la Fundació Carulla va ser inaugurat l’any 1988 i avui és un centre cultural que preserva, genera i comparteix coneixement alhora que promou el debat i la reflexió sobre ...",
+          "num_saves": null,
+          "image_id": "103279326",
+          "followed_by_you": false,
+          "facebook": null,
+          "num_collections": null,
+          "id": "30479602096",
+          "website_url": "https://museuvidarural.cat/",
+          "num_following": null
+        },
+        "series_id": null,
+        "image_id": "529161999",
+        "is_protected_event": false,
+        "is_cancelled": null,
+        "primary_venue_id": "157977719",
+        "checkout_flow": "widget",
+        "name": "Sostenibilitat en joc - Tastets activitats educatives de l'MVR - Grup 5",
+        "language": "es-es",
+        "url": "https://www.eventbrite.es/e/entradas-sostenibilitat-en-joc-tastets-activitats-educatives-de-lmvr-grup-5-650671976397",
+        "hide_start_date": false,
+        "summary": "Activitats entrega dels premis Baldiri Reixac 2023 - MUSEU VIDA RURAL - Sala lab dia",
+        "is_online_event": false,
+        "eid": "ehchrcgf",
+        "published": "2023-06-06T13:13:40Z"
+      },     
+      {
+        "image": {
+          "edge_color_set": true,
+          "edge_color": "#272936",
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F530948779%2F237347515424%2F1%2Foriginal.20230607-091331?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=efd3004494bcaa1034cc9f6f649ca985",
+          "original": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F530948779%2F237347515424%2F1%2Foriginal.20230607-091331?auto=format%2Ccompress&q=75&sharp=10&s=916f02d37a11e759f038af42380b6cab",
+            "width": 2160,
+            "height": 1080
+          },
+          "crop_mask": {
+            "width": 2160,
+            "height": 1080,
+            "top_left": {
+              "y": 0,
+              "x": 0
+            }
+          },
+          "aspect_ratio": "2",
+          "id": "530948779"
+        },
+        "saves": {
+          "saved_by_you": false
+        },
+        "event_sales_status": {
+          "start_sales_date": {
+            "timezone": "Europe/Madrid",
+            "local": "2023-02-06T09:00:00",
+            "utc": "2023-02-06T08:00:00Z"
+          },
+          "default_message": null,
+          "sales_status": "on_sale",
+          "currency": "EUR",
+          "message_code": null,
+          "message": null,
+          "message_type": null
+        },
+        "timezone": "Europe/Madrid",
+        "id": "652637254597",
+        "privacy_setting": "unlocked",
+        "tickets_by": "Eventbrite",
+        "primary_organizer_id": "15995256476",
+        "tickets_url": "https://www.eventbrite.com/checkout-external?eid=652637254597",
+        "hide_end_date": false,
+        "start_date": "2023-06-27",
+        "end_time": "17:00",
+        "status": "live",
+        "_type": "destination_event",
+        "public_collections": {
+          "creator_collections": {
+            "object_count": 0,
+            "collections": []
+          }
+        },
+        "ticket_availability": {
+          "is_sold_out": false,
+          "is_free": true,
+          "minimum_ticket_price": {
+            "currency": "EUR",
+            "major_value": "0.00",
+            "value": 0,
+            "display": "0.00 EUR"
+          },
+          "has_available_tickets": true,
+          "maximum_ticket_price": {
+            "currency": "EUR",
+            "major_value": "0.00",
+            "value": 0,
+            "display": "0.00 EUR"
+          }
+        },
+        "end_date": "2023-06-27",
+        "tags": [
+          {
+            "prefix": "EventbriteSubCategory",
+            "tag": "EventbriteSubCategory/2004",
+            "display_name": "High Tech"
+          },
+          {
+            "prefix": "EventbriteCategory",
+            "tag": "EventbriteCategory/102",
+            "display_name": "Science & Technology",
+            "localized": {
+              "display_name": "Science & Technology"
+            }
+          },
+          {
+            "prefix": "EventbriteFormat",
+            "tag": "EventbriteFormat/1",
+            "display_name": "Conference"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/electronics",
+            "display_name": "electronics",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/movilidad",
+            "display_name": "movilidad",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/sostenibilidad",
+            "display_name": "sostenibilidad",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/aeronautics",
+            "display_name": "aeronautics",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/aeronautica",
+            "display_name": "aeronautica",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/aerospace_engineering",
+            "display_name": "aerospace_engineering",
+            "prefix": "OrganizerTag"
+          },
+          {
+            "_type": "tag",
+            "tag": "OrganizerTag/aeroestructura",
+            "display_name": "aeroestructura",
+            "prefix": "OrganizerTag"
+          }
+        ],
+        "eventbrite_event_id": "652637254597",
+        "start_time": "16:00",
+        "primary_organizer": {
+          "_type": "destination_profile",
+          "num_upcoming_events": null,
+          "name": "Capgemini Engineering España",
+          "profile_type": "organizer",
+          "num_followers": 520,
+          "url": "https://www.eventbrite.es/o/capgemini-engineering-espana-15995256476",
+          "twitter": "CapgeminiEngES",
+          "summary": "Capgemini Engineering combina, bajo una sola marca, un conjunto único de puntos fuertes de todo el Grupo Capgemini: los servicios de ingeniería e I+D de Altran (adquirida por Capgemini en 2020) lídere...",
+          "num_saves": null,
+          "image_id": "132318781",
+          "followed_by_you": false,
+          "facebook": "103734256362857",
+          "num_collections": null,
+          "id": "15995256476",
+          "website_url": "https://capgemini-engineering.com/es/es/",
+          "num_following": null
+        },
+        "series_id": null,
+        "image_id": "530948779",
+        "is_protected_event": false,
+        "is_cancelled": null,
+        "primary_venue_id": null,
+        "checkout_flow": "widget",
+        "name": "Cutting Edge: Electronics. Ep.1 Sostenibilidad",
+        "language": "es-es",
+        "url": "https://www.eventbrite.es/e/entradas-cutting-edge-electronics-ep1-sostenibilidad-652637254597",
+        "hide_start_date": false,
+        "summary": "¿Quieres conocer los retos de la ingeniería electrónica? En el episodio 1 veremos como la electrónica puede ayudar a la sostenibilidad!",
+        "is_online_event": true,
+        "eid": "ehctrtym",
+        "published": "2023-06-07T09:29:35Z"
+      }
+    ]
+  }

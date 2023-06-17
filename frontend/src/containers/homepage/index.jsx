@@ -9,6 +9,7 @@ import { useCookies } from 'react-cookie'
 
 import { StickyHeader } from '../../components/stickyHeader/stickyHeader'
 import './index.css'
+import { EcoEventsSection } from './ecoEventsSection'
 
 const PageContainer = styled.div`
   min-width: 100%;
@@ -46,7 +47,7 @@ function Homepage(props) {
   //   transform: "translateY(-2.5px)",
   //   height: "60px",
   // };
-      
+
   var headerNavbarContainerStyle = {
     position: 'fixed',
     display: 'flex',
@@ -75,7 +76,7 @@ function Homepage(props) {
   useEffect(() => {
     const fetchCities = async () => {
       try {
-        const response = await fetch("https://ecoevent.up.railway.app/api/v1/cities", {
+        const response = await fetch(`https://ecoevent.up.railway.app/api/v1/cities`, {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
@@ -85,10 +86,13 @@ function Homepage(props) {
         const second = await results.data
         console.log(second)
 
-        setCities(second.sort((a, b) => a.name.localeCompare(b.name)))
+        const cities = results.data;
+
+        setCities(cities.sort((a, b) => a.name.localeCompare(b.name)))
         // For the moment, we only have one arrival city
-        setCityDeparture(second.find((cityItem) => cityItem.name === 'Paris'))
-        setCityArrival(second.find((city) => city.arrival === true))
+        setCityDeparture(cities.find((cityItem) => cityItem.name === 'Paris'))
+        setCityArrival({ name: 'Barcelona', logo: 'https://welcome-to-barcelona.extia.fr/static/media/barcelone.b9eb4b5f5cedd6dcff8f.png', url: "https://welcome-to-barcelona.extia.fr/static/media/barcelone.b9eb4b5f5cedd6dcff8f.png" })
+        console.log(cities)
       } catch (error) {
         console.log(error)
       }
@@ -136,6 +140,13 @@ function Homepage(props) {
           orientation={props.orientation}
         />
         <ServicesSection
+          lng={props.lng}
+          name="weather"
+          cityDeparture={cityDeparture}
+          cityArrival={cityArrival}
+          format={props.format}
+        />
+        <EcoEventsSection
           lng={props.lng}
           name="weather"
           cityDeparture={cityDeparture}

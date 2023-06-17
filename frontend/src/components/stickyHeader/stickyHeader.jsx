@@ -56,6 +56,7 @@ export const StickyHeader = (props) => {
         <img
           alt="extia-logo"
           style={extiaLogoStyle(true)}
+          src="https://welcome-to-barcelona.extia.fr/static/media/Extialogoblanc.1f626d09ac64a1a1a19be4b42385a487.svg"
         />
       </Link>
       <div className="divheaderhackathon">
