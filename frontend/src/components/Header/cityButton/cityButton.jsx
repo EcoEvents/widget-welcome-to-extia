@@ -95,6 +95,7 @@ export function CityButton(props) {
 
   function selectCity(cityData) {
     setCity(cityData);
+    
   }
 
   const [city, setCity] = useState(props.cityDeparture);
@@ -109,26 +110,32 @@ export function CityButton(props) {
   };
 
   function CityItemSelector(props) {
+    
     return (
       <div
         className="cityItemMenuHeader"
         onClick={() => selectCity(props.cities)}
       >
         <p className="cityItemTextHeader">{t(props.cities?.name)}</p>
-        {/* {props.cities?.logo_o?.url ? ( */}
+
+         {/* {props.cities?.logo_o?.url ? (  */}
           <img
             style={
               props.cities.name === "Paris"
-                ? logoStyleSmallParis
-                : logoStyleSmall
+              ? logoStyleSmallParis
+              : logoStyleSmall
             }
             alt="iconTravelTime"
-          />
-        {/* ) : (
+            src={props.cities.logo}
+            />
+         {/* ) : ( */}
           <div className="emptyPictureItemHeader" />
-        )} */}
+        {/* )}  */}
       </div>
-    );
+      
+      
+      );
+      
   }
 
   useEffect(() => {

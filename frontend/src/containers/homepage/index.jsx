@@ -75,18 +75,20 @@ function Homepage(props) {
   useEffect(() => {
     const fetchCities = async () => {
       try {
-        const response = await fetch(`${process.env.REACT_APP_API_URL}/cities`, {
+        const response = await fetch("https://ecoevent.up.railway.app/api/v1/cities", {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
           },
         })
         const results = await response.json()
+        const second = await results.data
+        console.log(second)
 
-        setCities(results.sort((a, b) => a.name.localeCompare(b.name)))
+        setCities(second.sort((a, b) => a.name.localeCompare(b.name)))
         // For the moment, we only have one arrival city
-        setCityDeparture(results.find((cityItem) => cityItem.name === 'Paris'))
-        setCityArrival(results.find((city) => city.arrival === true))
+        setCityDeparture(second.find((cityItem) => cityItem.name === 'Paris'))
+        setCityArrival(second.find((city) => city.arrival === true))
       } catch (error) {
         console.log(error)
       }
@@ -116,7 +118,7 @@ function Homepage(props) {
             <img style={buttonStyle} alt="logo" />
           </Link>
           <Link activeClass="active" to="weather" spy={true} style={{ display: 'block' }} offset={-50}>
-            <img style={buttonStyle} src={cityDeparture?.logo?.url} alt="logo" />
+            <img style={buttonStyle} src={props.cities.logo} alt="logo" />
           </Link>
           <Link activeClass="active" to="Hackathon" spy={true} offset={props.offset ? props.offset : 0}>
             <img className={buttonStyle} alt="logo" />
