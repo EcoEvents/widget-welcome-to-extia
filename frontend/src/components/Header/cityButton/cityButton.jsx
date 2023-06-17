@@ -191,7 +191,7 @@ export function CityButton(props) {
         <div className="elementArrival" format={props.format}>          <img
           style={props.format === "s" ? logoStyleSmall : logoStyle}
           alt="logo"
-          src={props.cityArrival.logo}
+          src={props?.cityArrival?.logo}
         />
           <div className="nameAndCode">
             <span style={cityNameArrivalStyle}>{t(props.cityArrival?.name)}</span>
