@@ -91,7 +91,7 @@ const logoStyleSmallParis = {
   verticalAlign: "middle",
   marginRight: "5px",
 };
-export function CityButton(props) {
+export function   CityButton(props) {
 
   function selectCity(cityData) {
     setCity(cityData);

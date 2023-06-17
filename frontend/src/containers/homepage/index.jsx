@@ -9,6 +9,7 @@ import { useCookies } from 'react-cookie'
 
 import { StickyHeader } from '../../components/stickyHeader/stickyHeader'
 import './index.css'
+import { EcoEventsSection } from './ecoEventsSection'
 
 const PageContainer = styled.div`
   min-width: 100%;
@@ -46,7 +47,7 @@ function Homepage(props) {
   //   transform: "translateY(-2.5px)",
   //   height: "60px",
   // };
-      
+
   var headerNavbarContainerStyle = {
     position: 'fixed',
     display: 'flex',
@@ -75,14 +76,14 @@ function Homepage(props) {
   useEffect(() => {
     const fetchCities = async () => {
       try {
-        const response = await fetch(`${process.env.REACT_APP_API_URL}/cities`, {
+        const response = await fetch(`https://ecoevent.up.railway.app/api/v1`, {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
           },
         })
         const results = await response.json()
-
+        
         setCities(results.sort((a, b) => a.name.localeCompare(b.name)))
         // For the moment, we only have one arrival city
         setCityDeparture(results.find((cityItem) => cityItem.name === 'Paris'))
@@ -134,6 +135,13 @@ function Homepage(props) {
           orientation={props.orientation}
         />
         <ServicesSection
+          lng={props.lng}
+          name="weather"
+          cityDeparture={cityDeparture}
+          cityArrival={cityArrival}
+          format={props.format}
+        />
+        <EcoEventsSection
           lng={props.lng}
           name="weather"
           cityDeparture={cityDeparture}
