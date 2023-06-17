@@ -95,6 +95,7 @@ export function CityButton(props) {
 
   function selectCity(cityData) {
     setCity(cityData);
+    
   }
 
   const [city, setCity] = useState(props.cityDeparture);
@@ -109,26 +110,31 @@ export function CityButton(props) {
   };
 
   function CityItemSelector(props) {
+    
     return (
       <div
         className="cityItemMenuHeader"
         onClick={() => selectCity(props.cities)}
       >
         <p className="cityItemTextHeader">{t(props.cities?.name)}</p>
-        {/* {props.cities?.logo_o?.url ? ( */}
+        {props.cities?.logo ? (
           <img
+            src={props.cities.logo}
             style={
               props.cities.name === "Paris"
-                ? logoStyleSmallParis
-                : logoStyleSmall
+              ? logoStyleSmallParis
+              : logoStyleSmall
             }
             alt="iconTravelTime"
           />
-        {/* ) : (
+        ) : (
           <div className="emptyPictureItemHeader" />
-        )} */}
+        )}
       </div>
-    );
+      
+      
+      );
+      
   }
 
   useEffect(() => {
@@ -142,7 +148,7 @@ export function CityButton(props) {
   let cityNameTab = props.cities.map((element) => {
     return (
       <MenuItem key={element.name}>
-        {element.name !== props.cityArrival?.name && 
+        {element.name !== props.cityArrival?.name &&
           <CityItemSelector cities={element} />
         }
       </MenuItem>
@@ -172,20 +178,21 @@ export function CityButton(props) {
         >
           <img
             alt="logo"
+            src={city?.logo}
             style={props.format === "s" ? logoStyleSmall : logoStyle}
           />
           <div className="nameAndCode">
             <span style={cityNameDepartureStyle}>{t(city?.name)}</span>
           </div>
-          
+
         </div>
 
         <div className="separatorStyle"></div>
-        <div className="elementArrival" format={props.format}>
-          <img
-            style={props.format === "s" ? logoStyleSmall : logoStyle}
-            alt="logo"
-          />
+        <div className="elementArrival" format={props.format}>          <img
+          style={props.format === "s" ? logoStyleSmall : logoStyle}
+          alt="logo"
+          src={props?.cityArrival?.logo}
+        />
           <div className="nameAndCode">
             <span style={cityNameArrivalStyle}>{t(props.cityArrival?.name)}</span>
           </div>

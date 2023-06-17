@@ -149,7 +149,7 @@ export function Header(props) {
     <>
       <div className="elemStyle" style={elemStyle} name="Header" format={props.format}>
         <div style={props.format === "s" ? props.orientation === "portrait" ? circleStyleS : circleStyleLandscape : props.format === "m" ? circleStyleM : circleStyle}>
-          {props.format === 'l' && <img className="human" alt="human" />}
+          {props.format === 'l' && <img className="human" alt="human" src="https://welcome-to-barcelona.extia.fr/static/media/humanThink.eea64617cd160c875246.png" />}
         </div>
         <div>
           <div style={titleAndCityButtonContainer}>
