@@ -52,9 +52,9 @@ export function Scroller(props) {
         <div className={'fixedStyleNav '+ ((animated || mouseOver)? 'animated ' : '')+ ( !animated && !mouseOver && needClose ? 'animatedEnd ' : '')} >
           <nav className='navbar' >
             <ScrollerInformation linkDiv={((animated || mouseOver || needClose)? 'linkdiv ' : 'flexdiv ')}
-              sepia=" sepia " imgClassName="button" to="Header"  text={`${t("navbarPlanning")}`} offset={-80}/>
+              sepia=" sepia " imgClassName="button" to="Header" logo={'https://welcome-to-barcelona.extia.fr/static/media/thinking.9db96be85ed88789ec771475bcf76663.svg'}  text={`${t("navbarPlanning")}`} offset={-80}/>
             <ScrollerInformation linkDiv={((animated || mouseOver || needClose)? 'linkdiv ' : 'flexdiv ')} 
-              sepia=" sepia " imgClassName="button" to="weather" text={`${t("navbarAreYou")}${t(props.cityDeparture?.name)}`} offset={-40} />
+              sepia=" sepia " imgClassName="button" to="weather" logo={props?.cityDeparture?.logo} text={`${t("navbarAreYou")}${t(props.cityDeparture?.name)}`} offset={-40} />
           </nav>
         </div>
       </div>

@@ -76,18 +76,21 @@ function Homepage(props) {
   useEffect(() => {
     const fetchCities = async () => {
       try {
-        const response = await fetch(`https://ecoevent.up.railway.app/api/v1`, {
+        const response = await fetch(`https://ecoevent.up.railway.app/api/v1/cities`, {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
           },
         })
         const results = await response.json()
-        
-        setCities(results.sort((a, b) => a.name.localeCompare(b.name)))
+
+        const cities = results.data;
+
+        setCities(cities.sort((a, b) => a.name.localeCompare(b.name)))
         // For the moment, we only have one arrival city
-        setCityDeparture(results.find((cityItem) => cityItem.name === 'Paris'))
-        setCityArrival(results.find((city) => city.arrival === true))
+        setCityDeparture(cities.find((cityItem) => cityItem.name === 'Paris'))
+        setCityArrival({ name: 'Barcelona', logo: 'https://welcome-to-barcelona.extia.fr/static/media/barcelone.b9eb4b5f5cedd6dcff8f.png', url: "https://welcome-to-barcelona.extia.fr/static/media/barcelone.b9eb4b5f5cedd6dcff8f.png" })
+        console.log(cities)
       } catch (error) {
         console.log(error)
       }
