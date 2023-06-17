@@ -1,3 +1,45 @@
-.cardCarousel{
+/* .cardCarousel{
     width: ;
+} */
+
+.circlecarousel {
+    position: absolute;
+    width: 588px;
+    height: 558px;
+    right: -170px;
+    bottom: -82px;
+    background: #FFE9DD;
+    border-radius: 50%;
 }
+
+.container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .cardContainer {
+    display: flex;
+    scroll-snap-align: start;
+  }
+  
+  .card {
+    box-sizing: border-box;
+    position: absolute;
+    width: 363px;
+    height: 414px;
+    left: 113px;
+    top: 189px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 182px 73px rgba(0, 0, 0, 0.01),
+      0px 103px 62px rgba(0, 0, 0, 0.05),
+      0px 46px 46px rgba(0, 0, 0, 0.09),
+      0px 11px 25px rgba(0, 0, 0, 0.1),
+      0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+  }
+  
+  

@@ -1,17 +1,15 @@
 import { EcoEventsCarousel } from "../../components/servicesSection/ecoEventsCarousel/ecoEventsCarousel";
 
-function CardEvent(props){
-    const name = 
 
-}
 export function EcoEventsSection(props) {
 
 
     const format = props.format;
 
     var backgroundStyle = {
-        backgroundColor: '#FC9254',
+        backgroundColor: '#FEFEFE',
         position: 'relative',
+        height: '100vh',
         width: '100%',
         overflow: 'hidden',
         display: 'flex',
