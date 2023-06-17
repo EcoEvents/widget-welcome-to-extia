@@ -95,6 +95,7 @@ export function CityButton(props) {
 
   function selectCity(cityData) {
     setCity(cityData);
+    
   }
 
   const [city, setCity] = useState(props.cityDeparture);
@@ -109,6 +110,7 @@ export function CityButton(props) {
   };
 
   function CityItemSelector(props) {
+    
     return (
       <div
         className="cityItemMenuHeader"
@@ -120,8 +122,8 @@ export function CityButton(props) {
             src={props.cities.logo}
             style={
               props.cities.name === "Paris"
-                ? logoStyleSmallParis
-                : logoStyleSmall
+              ? logoStyleSmallParis
+              : logoStyleSmall
             }
             alt="iconTravelTime"
           />
@@ -129,7 +131,10 @@ export function CityButton(props) {
           <div className="emptyPictureItemHeader" />
         )}
       </div>
-    );
+      
+      
+      );
+      
   }
 
   useEffect(() => {

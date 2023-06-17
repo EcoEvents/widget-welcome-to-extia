@@ -83,6 +83,8 @@ function Homepage(props) {
           },
         })
         const results = await response.json()
+        const second = await results.data
+        console.log(second)
 
         const cities = results.data;
 
@@ -120,7 +122,7 @@ function Homepage(props) {
             <img style={buttonStyle} alt="logo" />
           </Link>
           <Link activeClass="active" to="weather" spy={true} style={{ display: 'block' }} offset={-50}>
-            <img style={buttonStyle} src={cityDeparture?.logo?.url} alt="logo" />
+            <img style={buttonStyle} src={props.cities.logo} alt="logo" />
           </Link>
           <Link activeClass="active" to="Hackathon" spy={true} offset={props.offset ? props.offset : 0}>
             <img className={buttonStyle} alt="logo" />
